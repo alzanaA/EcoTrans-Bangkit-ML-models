@@ -22,7 +22,7 @@ Datasets that are used to make the model are obtained from the first party so th
 
 ![image](https://user-images.githubusercontent.com/68011329/173268847-331eac8e-455c-48a4-8374-dcecd310aaa0.png)
 
-Our models are using stacked LSTM and 2 hidden layers so that our mordels can add a level of abstraction in order to represent the problem at different time scales.
+Our models are using stacked LSTM and 2 hidden layers so that our models can add a level of abstraction in order to represent the problem at different time scales.
 
 
 # Result
