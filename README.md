@@ -45,6 +45,6 @@ Above is the result of AQI (PM2.5).  The orange line represent the forecasted va
 
 # Run
 
-Below is the sample image that show how to get the next _n___ hours that can be used for AQI (PM2.5), Temperature, Uv Index
+Below is the sample image that show how to get the next _n__ hours that can be used for AQI (PM2.5), Temperature, Uv Index
 
 ![image](https://user-images.githubusercontent.com/68011329/173270247-6082cb25-839f-4d7a-8284-94231ead1cc5.png)
