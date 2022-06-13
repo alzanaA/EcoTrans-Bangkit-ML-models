@@ -13,7 +13,7 @@ This project requires Python and the following Python libraries installed:
 our data that is used to make the model is obtained from the first party so that the validity of the data can be maintained. Here is a link for each dataset:
 1. AQI            : https://archive.ics.uci.edu/ml/datasets/Beijing+Multi-Site+Air-Quality+Data 
 
-2. Temperature    : https://www.meteoblue.com/en/weather/archive/era5/jakarta_indonesia_1642911?daterange=2019-01-01%20-%202019-12-31&min=2019-01-01&max=2019-12-31&params%5B%5D=&params%5B%5D=temp2m&params%5B%5D=&params%5B%5D=precip&params%5B%5D=relhum2m&params%5B%5D=&params%5B%5D=wind%2Bdir10m&params%5B%5D=&params%5B%5D=totalClouds&params%5B%5D=&params%5B%5D=swrad&params%5B%5D=uvrad&params%5B%5D=&params%5B%5D=&params%5B%5D=&utc_offset=7&timeResolution=hourly&temperatureunit=CELSIUS&velocityunit=METER_PER_SECOND&energyunit=watts&lengthunit=metric&degree_day_type=10%3B30&gddBase=10&gddLimit=30 (Temperature)
+2. Temperature    : https://www.meteoblue.com/en/weather/archive/era5/jakarta_indonesia_1642911?daterange=2019-01-01%20-%202019-12-31&min=2019-01-01&max=2019-12-31&params%5B%5D=&params%5B%5D=temp2m&params%5B%5D=&params%5B%5D=precip&params%5B%5D=relhum2m&params%5B%5D=&params%5B%5D=wind%2Bdir10m&params%5B%5D=&params%5B%5D=totalClouds&params%5B%5D=&params%5B%5D=swrad&params%5B%5D=uvrad&params%5B%5D=&params%5B%5D=&params%5B%5D=&utc_offset=7&timeResolution=hourly&temperatureunit=CELSIUS&velocityunit=METER_PER_SECOND&energyunit=watts&lengthunit=metric&degree_day_type=10%3B30&gddBase=10&gddLimit=30 
 3. Uv Index       : https://docs.ambeedata.com/#weather-history-geospatial
 
 # Code
