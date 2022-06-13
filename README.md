@@ -1,4 +1,4 @@
-###Install
+# Install
 
 This project requires Python and the following Python libraries installed:
 
@@ -9,6 +9,7 @@ This project requires Python and the following Python libraries installed:
 
 
 # data
+
 our data that is used to make the model is obtained from the first party so that the validity of the data can be maintained. Here is a link for each dataset:
 
 1. https://archive.ics.uci.edu/ml/datasets/Beijing+Multi-Site+Air-Quality+Data (AQI)
@@ -20,23 +21,32 @@ our data that is used to make the model is obtained from the first party so that
 # Code
 
 ![image](https://user-images.githubusercontent.com/68011329/173268847-331eac8e-455c-48a4-8374-dcecd310aaa0.png)
+
 Our models are using stacked LSTM and 2 hidden layers so that our mordels can add a level of abstraction in order to represent the problem at different time scales
 
 
 # Result
+
 ## 1 Temperature
+
 ![image](https://user-images.githubusercontent.com/68011329/173269357-7d67d5d3-9b6d-41f0-b5f4-a9ba70d62e78.png)
+
 Above is the result of temperature. The orange line represent the forecasted value and the blue lines represent the actual value. The MAE of this model is 0.6392796 from the data range 0-40
 
 ## 2 Uv Index
+
 ![image](https://user-images.githubusercontent.com/68011329/173269569-804b493c-13b8-4328-92bd-a04616f20779.png)
+
 Above is the result of uv Index.The orange line represent the forecasted value and the blue lines represent the actual value. The MAE of this model is 0.4844505 from data range 1-10
 
 ## 3 AQI 
+
 ![image](https://user-images.githubusercontent.com/68011329/173269720-e623d3d1-6339-46f0-83cc-877763141a4c.png)
 
 Above is the result of AQI (PM2.5).  The orange line represent the forecasted value and the blue lines represent the actual value. The MAE of this model is 2.470957 from data range 0-240
 
 # Run
+
 Below is the sample image that show how to get the next _n___ hours that can be used for AQI (PM2.5), Temperature, Uv Index
+
 ![image](https://user-images.githubusercontent.com/68011329/173270247-6082cb25-839f-4d7a-8284-94231ead1cc5.png)
